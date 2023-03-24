@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="wrapper">
+    <h2>Giv dyrene mad</h2>
+
+    <!--point-->
+    <section class="ponit">
+        <p class="scoreinfo">Point: <span id="score">0</span></p>
+    </section>
+
+    <section id="animals">
+        <h2>Animal</h2>
+        <div id="tiger" class="animal" data-food="meat">Tiger 🐯</div>
+        <div id="lion" class="animal" data-food="meat">Lion 🦁</div>
+        <div id="monkey" class="animal" data-food="fruit">Monkey 🐒</div>
+        <div id="mouse" class="animal" data-food="snack">Mouse 🐀</div>
+        <div id="horst" class="animal" data-food="grass">Horse 🐴</div>
+        
+    </section>
+    
+    <section id="food">
+        <h2>Food</h2>
+        <div class="foodcontainer">
+            
+            <article id="f-1" draggable="true" data-food="fruit">🍌Banana</article>
+            <article id="f-2" draggable="true" data-food="grass">🍀grass</article>
+            <article id="f-3" draggable="true" data-food="meat">🍖Meat</article>
+            <article id="f-4" draggable="true" data-food="meat">🍗Chicken</article>
+            <article id="f-5" draggable="true" data-food="snack">🧀Cheese</article>
+            
+        </div>
+    </section>
+
+    <div class="reload">
+        <button id="load" class="load"><a href="#">Reload</a></button>
+        
+    </div>
+</div>
+<script src="java.js"></script>
+</body>
+</html>
